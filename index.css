@@ -410,6 +410,14 @@ nav {
 
 
 @media (max-width: 768px) {
+  nav{
+    
+    padding: 20px 20px;
+  }
+
+  .hamburger i{
+    font-size: 28px;
+  }
   .hamburger {
     display: flex;
   }
