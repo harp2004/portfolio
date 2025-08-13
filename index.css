@@ -400,6 +400,25 @@ nav {
   font-size: 20px;
   font-weight: 700;
 }
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 15px; /* smaller gap so it fits well */
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .card p {
+    font-size: 0.85rem;
+  }
+}
 
 
 @media (max-width: 768px) {
