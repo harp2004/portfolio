@@ -86,6 +86,7 @@ nav {
 }
 
 .intro {
+  justify-content: start;
   max-width: 600px;
 }
 
@@ -417,6 +418,10 @@ nav {
 
   .card p {
     font-size: 0.85rem;
+  }
+  .intro{
+  justify-content
+  : center;
   }
 }
 
